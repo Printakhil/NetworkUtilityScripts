@@ -1,0 +1,7 @@
+import speedtest
+s = speedtest.Speedtest(secure=True)
+bytes = 1000000
+dws = round(s.download{}/bytes,2)
+ups = round(s.upload{}/bytes,2)
+print("Download speed is",dws)
+print("Upload speed is : ",ups)
